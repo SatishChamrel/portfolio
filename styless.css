@@ -1,12 +1,45 @@
 /* General Styles */
 body {
-  background-color: #e0f7fa;
+  background-color: #ADD8E6;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  button 
+}
+button{
+  
+    width: 100px;  /* Sets the width of the button */
+    height: 25px;
+}
+.redirect-button {
+  background-color: #ADD8E6; /* Light blue */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
+.redirect-button:hover {
+  background-color: #87CEEB; /* Slightly darker blue on hover */
+}
+.email-button {
+  display: inline-block;
+  background-color: #ADD8E6; /* Light blue */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none; /* Remove underline */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.email-button:hover {
+  background-color: #87CEEB; /* Slightly darker blue on hover */
+}
 nav {
   background-color: #00897b;
   background: #333;
